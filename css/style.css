@@ -1,0 +1,75 @@
+html{
+    height: 100%;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #4aff50;
+}
+
+#id_numeri {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    background-color: #ffd700;
+}
+
+#contatore,
+#mostra_saldo,
+div,
+#risultato,
+#puntata {
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: #ffd700;
+}
+
+div {
+    text-align: center;
+}
+
+button{
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#id_numeri div {
+    width: 50px;
+    height: 50px;
+    background-color: #ff4500;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+footer {
+    position: relative;
+    width: 99.3%;
+    background-color: #4aff50;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: auto;
+}
+
+footer img {
+    width: 90px;
+}
